@@ -169,7 +169,7 @@ input {
 
 .section__title {
   font-size: var(--h2-font-size);
-  color: var(--title-color);
+  color: hsl(0deg 0% 0%);
   text-align: center;
   text-transform: capitalize;
   margin-bottom: var(--mb-2);
