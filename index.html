@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="" type="image/png">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <title>Travelokdon Official Website</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Travelokdon</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Places</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!-- HOME -->
+            <section class="home" id="home">
+                <img src="assets/img/david-di-veroli--m1duEoiJng-unsplash.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Temukan tempat wisata terbaik anda</span>
+                        <h1 class="home__data-title">Jelajahi <b>Pantai <br> Indah </b> Terbaik Di Indonesia</h1>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://github.com/" target="_blank" class="home__social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://discord.com/" target="_blank" class="home__social-link">
+                            <i class="fab fa-discord"></i>
+                        </a>
+      
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Informasi Lebih Lanjut <br> Tentang Pantai Terbaik Di Indonesia</h2>
+                        <p class="about__description">
+                            	
+                        Sebagai negara kepulauan, Indonesia dianugerahi jutaan lautan dan pantai yang sangat mempesona. Kita sebagai orang Indonesia,
+                        seharusnya bisa menjelajahi keindahan bahari dalam negeri, sebelum ke luar negeri.
+                        </p>
+                        <p class="about__description">Anda dapat menemukan tempat yang paling indah dan menyenangkan dengan harga terbaik dengan diskon khusus,
+                             Anda memilih tempat kami akan memandu Anda sepanjang jalan untuk menunggu,
+                              dapatkan tempat Anda sekarang.
+
+                        </p>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/kilarov-zaneit-Y6llHB9rNac-unsplash.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/discover4.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- DISCOVER -->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Temukan Tempat yang Menarik <br> & Indah disini</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- DISCOVER 1 -->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Bali</h2>
+                                <span class="discover__description">24 tours available</span>
+                            </div>
+                        </div>
+
+                        <!-- DISCOVER 2 -->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/LabuanBajo.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Labuan Bajo</h2>
+                                <span class="discover__description">15 tours available</span>
+                            </div>
+                        </div>
+
+                    
+
+                        <!-- DISCOVER 3 -->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/joel-vodell-rHhifoDUsUw-unsplash.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Jogja</h2>
+                                <span class="discover__description">32 tours available</span>
+                            </div>
+                        </div>
+
+                        <!--DISCOVER 4-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/ryan-chondro-zG8tQO5Cd5k-unsplash.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Raja Ampat</h2>
+                                <span class="discover__description">12 tours available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPERIENCE -->
+            <section class="experience section">
+                <h2 class="section__title">Dengan Pengalaman
+                    Kami,<br> Kami Akan Melayani Anda</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">15</h2>
+                            <span class="experience__description">Tahun <br> Pengalaman</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">75</h2>
+                            <span class="experience__description">Tour <br> Lengkap</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">56+</h2>
+                            <span class="experience__description">Tujuan <br> Wisata</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/denissa-devy-fU2Mus9qmN8-unsplash.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/aron-visuals-ycyLUcEoalE-unsplash.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- VIDEO -->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">
+                        Cari tahu lebih lanjut dengan video kami tentang tempat paling indah dan menyenangkan untuk Anda dan keluarga.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PLACES -->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your Place</h2>
+
+                <div class="place__container container grid">
+                    <!-- PLACES CARD 1 -->
+                    <div class="place__card">
+                        <img src="assets/img/place1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Bali</h3>
+                                <span class="place__subtitle">Indonesia</span>
+                                <span class="place__price">IDR 4.6 Jt</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!-- PLACES CARD 2 -->
+                    <div class="place__card">
+                        <img src="assets/img/aziz-homaily-il2k5eKncbY-unsplash.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Papua</h3>
+                                <span class="place__subtitle">Indonesia</span>
+                                <span class="place__price">IDR 10.9 Jt</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!-- PLACES CARD 3 -->
+                    <div class="place__card">
+                        <img src="assets/img/yudhisthira-lk-Rv4t9oPy4uc-unsplash.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Pacitan</h3>
+                                <span class="place__subtitle">Indonesia</span>
+                                <span class="place__price">IDR 3.4 Jt</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!-- PLACES CARD 4 -->
+                    <div class="place__card">
+                        <img src="assets/img/christoffer-engstrom-S3RLgOi2M9U-unsplash.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Lombok</h3>
+                                <span class="place__subtitle">Indonesia</span>
+                                <span class="place__price">IDR 8.4 Jt</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!-- PLACES CARD 5 -->
+                    <div class="place__card">
+                        <img src="assets/img/about2.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,7</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Labuan Bajo</h3>
+                                <span class="place__subtitle">Indonesia</span>
+                                <span class="place__price">IDR 8.2 Jt</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+           
+
+        <!-- FOOTER -->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Travelokdon</h3>
+                        <p class="footer__description">Membuat perjalanan anda lebih menyenangkan dan memberikan pengalaman yang seru
+                        </p>
+                        <div>
+                            <a href="https://github.com/" target="_blank" class="footer__social">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://discord.com/" target="_blank" class="footer__social">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 Adyuta. All rigths reserved.</p>
+                    <div class="footer__terms">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--JS-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
